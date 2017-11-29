@@ -12,14 +12,14 @@ client.on('message', message => {
     if (message.content === 'money') {
         message.reply(':O How dare you!, I am gonna sue you!')
     }
-    if (message.content === ':o') {
+    if (message.content === ':0') {
         message.reply('That is not fair! I am the center of attention.')
     }
     if (message.content === 'me') {
         message.reply('The world revolves around me! and only me!')
     }
     if (message.content === '!!commandlist') {
-        message.reply('delta, money, :o, me')
+        message.reply('delta, money, :0 (0 = zero not the letter o), me')
     }
 });
 
