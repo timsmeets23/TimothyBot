@@ -6,8 +6,19 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'delta') {
-    	message.reply('pineapple');
+    if (message.content === 'hello') {
+    	message.reply('OH HELLLOWWWWW...');
+    }
+    if (message.content === ':0') {
+        message.reply('Oh.. no.. no.. honey.. honey.. no');
+    }
+    if (message.content === 'matt') {
+        message.reply('What..');
+    }
+    if (message.content === 'peridot') {
+        message.channel.send("Test", {
+        file: "https://i.pinimg.com/originals/31/75/0f/31750ffc2bae0e98a3fbe4a172be621a.jpg" // Or replace with FileOptions object
+        });
     }
 });
 
