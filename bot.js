@@ -16,7 +16,7 @@ client.on('message', message => {
         message.reply('What..');
     }
     if (message.content === 'peridot') {
-        message.channel.send("Test", {
+        message.channel.send("What's the point of corn....", {
         file: "https://i.pinimg.com/originals/31/75/0f/31750ffc2bae0e98a3fbe4a172be621a.jpg" // Or replace with FileOptions object
         });
     }
