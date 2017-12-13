@@ -16,7 +16,7 @@ client.on('message', message => {
         message.reply('69420 everytime :D #thanksGradeAUnderA');
     }
     if (message.content === '$meeseeks') {
-        message.channel.send("Have you keeping your shoulders straight!!, OH YES SIR!", {
+        message.channel.send("Are you keeping your shoulders straight!!, OH YES SIR!", {
         file: "http://www.gstatic.com/tv/thumb/v22episodes/10443766/p10443766_e_v8_ab.jpg" // Or replace with FileOptions object
         });
     }
