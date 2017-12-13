@@ -1,6 +1,6 @@
 {
-  "name": "MattBot",
-  "description": "MattBot",
+  "name": "TimBot",
+  "description": "TimBot",
   "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
