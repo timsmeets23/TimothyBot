@@ -26,7 +26,7 @@ client.on('message', message => {
     if (message.content === '$timmyturner') {
         message.reply("Timmy is an average kid, That no one understands, Mark and Alex and Matt always giving him commands. SCRIPT twirp!")
     }
-    if (message.content === '&commandlist') {
+    if (message.content === '$commandlist') {
         message.reply('$69,$420,$69420,$meeseeks,$skid,$timmyturner,$commandlist')
     }
 });
