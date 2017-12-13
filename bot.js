@@ -6,22 +6,28 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '-hello') {
-    	message.reply('OH HELLLOWWWWW...');
+    if (message.content === '$69') {
+    	message.reply('OH, COME ON!');
     }
-    if (message.content === '-:o') {
-        message.reply('Oh.. no.. no.. honey.. honey.. no');
+    if (message.content === '$420') {
+        message.reply('BLAZE IT!');
     }
-    if (message.content === '-matt') {
-        message.reply('What..');
+    if (message.content === '$69420') {
+        message.reply('69420 everytime :D #thanksGradeAUnderA');
     }
-    if (message.content === '-peridot') {
-        message.channel.send("What's the point of corn....", {
-        file: "https://i.pinimg.com/originals/31/75/0f/31750ffc2bae0e98a3fbe4a172be621a.jpg" // Or replace with FileOptions object
+    if (message.content === '$meeseeks') {
+        message.channel.send("Have you keeping your shoulders straight!!, OH YES SIR!", {
+        file: "http://www.gstatic.com/tv/thumb/v22episodes/10443766/p10443766_e_v8_ab.jpg" // Or replace with FileOptions object
         });
     }
-    if (message.content === '-commandlist') {
-        message.reply('-hello,-:o,-matt,-peridot,-commandlist')
+    if (message.content === '$skid') {
+        message.reply("Don't you dare ask that!")
+    }
+    if (message.content === '$timmyturner') {
+        message.reply("Timmy is an average kid, That no one understands, Mark and Alex and Matt always giving him commands. SCRIPT twirp!")
+    }
+    if (message.content === '&commandlist') {
+        message.reply('$69,$420,$69420,$meeseeks,$skid,$timmyturner,$commandlist')
     }
 });
 
